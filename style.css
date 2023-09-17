@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(img/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: montserratb;
+    src: url(img/Montserrat/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: montserratr;
+    src: url(img/Montserrat/Montserrat-Regular.ttf);
+}
+body{
+    color: #fff;
+    font-family: montserratr;
+}
+
+img{
+    max-width: 100%;
+}
+.img{
+    background-image: url(img/img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+.nav1 {
+    background-color:#242424 ;
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+nav>button{
+    color: #fff;
+}
+.hr{
+    width: 50%;
+
+    
+}
+.container>a{
+    color: #1f5561;
+}
+.other{
+    font-family: montserratb;
+}
+.logo{
+    
+
+    position: absolute;
+    top: 0px;
+    margin-left: 0;
+    
+}
+.nav1>nav>.container>div>a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none ;
+}
+.nav-item>a{
+    color: white;
+}
+
+.nav2{
+    background-color: #1f5561;
+}
+.part1{
+    
+    color: #fff;
+}
+.part1>div{
+    margin-left: 3%;
+    margin-top: 120px;
+    font-family: montserrat;
+    font-size: 35px;
+}
+.part2{
+    font-family: montserratb;
+    color: #fff;
+    font-size: 40px;
+}
+.part3{
+font-size: 20px;
+}
